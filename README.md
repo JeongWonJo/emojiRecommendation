@@ -5,3 +5,5 @@ I collected 1,578,612 Twitter data containing facial emojis and separated sente
 Then, I used the VADAR package to quantify three traits of the sentiment for each sentence: negative, neutral, and positive. 
 I used sentiment scores of each sentence as features and its emojis as targets and applied them to Decision Trees, Support Vector Machine, and Gaussian Naive Bayes.
 I confirmed that the algorithm can suggest contextually suitable emojis for any random sentence.
+
+The 'vader.py' is the original VADAR package code, and the code I used to automatically suggest emoji is 'sentimentanalysisapplied.py' file.
